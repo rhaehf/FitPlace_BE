@@ -32,3 +32,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+bootJar{
+	archivesBaseName = 'fitplace'
+	archiveFileName = 'fitplace-server.jar'
+	archiveVersion = "0.0.1"
+}
