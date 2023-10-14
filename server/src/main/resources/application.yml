@@ -8,9 +8,13 @@ spring:
       hibernate:
       format_sql: true
     show_sql: true
+
     defer-datasource-initialization: true # 스프링부트 2.5 이상부터 초기 sql 데이터 입력시 필요함
+
 
 logging.level:
   org.hibernate.SQL: debug
   org.hibernate.type: trace # console에서 ? 값 보여줌
+
+
 # org.hibernate.orm.jdbc.bind: trace #스프링 부트 3.x, hibernate6
