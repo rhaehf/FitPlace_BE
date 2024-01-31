@@ -1,5 +1,5 @@
-# FitPlace_BE - FitPlace 서버
-FitPlace 프로젝트의 서버 담당 리포지터리입니다.
+# FitPlace - 운동 회원권 OTT 서비스
+FitPlace 프로젝트의 백엔드 서버 리포지터리
 
 ## 프로젝트 소개
 프로젝트명 : **FitPlace** (Fitness & Place)
